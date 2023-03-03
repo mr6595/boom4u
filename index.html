@@ -1,36 +1,24 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <title>My Website</title>
+	<title>Linux Command</title>
 </head>
 <body>
-  <header>
-    <h1>Welcome to My Website</h1>
-    <nav>
-      <ul>
-        <li><a href="#">Home</a></li>
-        <li><a href="#">About</a></li>
-        <li><a href="#">Services</a></li>
-        <li><a href="#">Contact</a></li>
-      </ul>
-    </nav>
-  </header>
-  <main>
-    <section>
-      <h2>About Us</h2>
-      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec non purus non magna iaculis malesuada.</p>
-    </section>
-    <section>
-      <h2>Our Services</h2>
-      <ul>
-        <li>Service 1</li>
-        <li>Service 2</li>
-        <li>Service 3</li>
-      </ul>
-    </section>
-  </main>
-  <footer>
-    <p>Copyright © 2023 My Website</p>
-  </footer>
+	<h1>Basics command used</h1>
+	<ul>
+		<li>curl - curl -voa http://domain.com -x IP:80</li>
+		<li>ping - ping 127.0.0.x -c 10</li>
+		<li>dig - dig domain</li>
+		<li>tcping - tcping 127.0.0.x -c 10</li>
+		<li>nslookup - nslookup domain</li>
+	</ul>
+
+	<h1>Advance Script</h1>
+	<p>guyssss, i wrote a script for running the dig command be more easier to test the sohai txw's domain</p>
+	<h2>solution:</h2>
+	<ol>
+		<li>use echo to replace the data in 'domain.txt' (/run echo -e 'yahoo.com\ngoogle.com' > domains.txt)</li>
+		<li>use bash command to run the script (bash dig_domain)</li>
+	</ol>
 </body>
 </html>
