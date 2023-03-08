@@ -1,33 +1,81 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title>Linux Command</title>
-	<link rel="stylesheet" type="text/css" href="style.css">
+	<title>Home | Boom4U</title>
+	<style>
+		header {
+			background-color: #333;
+			color: #fff;
+			padding: 10px;
+		}
+
+		header h1 {
+			margin: 0;
+		}
+
+		nav ul {
+			list-style: none;
+			margin: 0;
+			padding: 0;
+		}
+
+		nav li {
+			display: inline-block;
+			margin-right: 20px;
+		}
+
+		nav li:last-child {
+			margin-right: 0;
+		}
+
+		nav a {
+			color: #fff;
+			text-decoration: none;
+			font-weight: bold;
+			font-size: 18px;
+			padding: 5px;
+			transition: all 0.3s ease;
+		}
+
+		nav a:hover {
+			background-color: #fff;
+			color: #333;
+		}
+	</style>
 </head>
 <body>
-	<?php include 'header.php'; ?>
-
-	<h1>Basics command used</h1>
-	<p>By using the bot, must involve /run in front of the command</p>
-	<ul>
-		<li>curl - curl -voa http://domain.com -x IP:80</li>
-		<li>ping - ping 127.0.0.x -c 10</li>
-		<li>dig - dig domain</li>
-		<li>tcping - tcping 127.0.0.x -c 10</li>
-		<li>nslookup - nslookup domain</li>
-	</ul>
-
-	<h1>Advance Script</h1>
-	<p>Guyssss, I wrote a script for running the dig command be more easier to test the sohai txw's domain</p>
-	<h2>Solution:</h2>
-	<ol>
-		<li>USE echo to replace the data in 'domain.txt' (/run echo -e 'yahoo.com \ngoogle.com' > domains.txt)</li>
-		<li>FOR recording the domain remember leave a space, if not it will get the error</li>
-		<li>USE bash command to run the script (bash dig_domain)</li>
-	</ol>
-
-	<ul>
-		<img src="images/photo_4916015886670867246_y.jpg" alt="">
-	</ul>
+	<header>
+		<h1>Boom4u</h1>
+		<nav>
+			<ul>
+				<li><a href="index.html">Home</a></li>
+				<li><a href="knowledge.html">Knowledge</a></li>
+				<li><a href="gallery.html">Gallery</a></li>
+			</ul>
+		</nav>
+	</header>
+	<main>
+		<section id="intro">
+			<h2>Welcome to Boom4u</h2>
+			<p>For this site, you only can find 1 thing which is important. Others are just trash.</p>
+			<p>HAHA, enjoy.</p>
+		</section>
+		<section id="image">
+			<img src="image/home.jpg" alt="" style="max-width: 60%; max-height: 60%;">
+		</section>
+		<section id="video">
+			<video src="video/Rick Astley - Never Gonna Give You Up (Official Music Video).mp4" style="max-width: 60%; max-height: 60%;" controls></video>
+			<source src="https://raw.githubusercontent.com/mr6595/debug/master/Rick Astley - Never Gonna Give You Up (Official Music Video).mp4" type="video/mp4">
+		</section>
+		<section id="contact">
+			<h2>Contact Us</h2>
+			<p>Hello, what are you think?</p>
+			<p>Why you want contact me?</p>
+			<p>SCHMUCK</p>
+		</section>
+	</main>
+	<footer>
+		<p>&copy; 2023 Boom7U</p>
+	</footer>
 </body>
 </html>
